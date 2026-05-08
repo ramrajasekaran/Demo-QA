@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="DemoQA Automation Suite">
+
+    <test name="DemoQA Test Modules">
+        <classes>
+            <class name="Test.FormsAndBasicElementsTest"/>
+            <class name="Test.WebTablesTest"/>
+            <class name="Test.AlertsAndWindowsTest"/>
+            <class name="Test.FramesTest"/>
+            <class name="Test.WidgetsTest"/>
+        </classes>
+    </test>
+
+</suite>
